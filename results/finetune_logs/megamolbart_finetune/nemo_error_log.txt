@@ -1,0 +1,430 @@
+[NeMo W 2025-04-14 16:02:38 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:02:39 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:02:39 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:02:40 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:02:40 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:02:40 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f824aef9f10> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f824aef9f10>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:02:40 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:02:40 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:24:04 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:24:05 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:24:06 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:24:06 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:24:06 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:24:06 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f1b44d7d0d0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f1b44d7d0d0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:24:06 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:24:06 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:24:06 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:24:06 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:24:06 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:25:37 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:25:38 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:25:39 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:25:39 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:25:39 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:25:39 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f60ecd52160> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f60ecd52160>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:25:39 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:25:39 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:25:39 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:25:39 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:25:39 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:25:39 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:25:39 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:25:39 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:30:50 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:30:51 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:30:52 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:30:52 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:30:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:30:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7fa63ab92850> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7fa63ab92850>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:30:52 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:30:52 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:30:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:30:52 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:30:52 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:30:52 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:30:52 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:30:52 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:30:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:33:20 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:33:21 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:33:22 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:33:22 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:33:22 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:33:22 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7efe1fc64ac0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7efe1fc64ac0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:33:22 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:33:22 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:33:22 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:33:22 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:33:22 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:33:22 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:33:22 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:33:22 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:33:23 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:34:14 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:34:15 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:34:15 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:34:15 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:34:15 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:34:15 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f999e71db50> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f999e71db50>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:34:15 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:34:15 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:34:15 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:34:15 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:34:16 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:34:16 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:34:16 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:34:16 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:34:16 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:35:16 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:35:17 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:35:17 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:35:18 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:35:18 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:35:18 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f13d1aefbb0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f13d1aefbb0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:35:18 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:35:18 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:35:18 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:35:18 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:35:18 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:35:18 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:35:18 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:35:18 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:35:18 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:35:40 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:35:41 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:35:41 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:35:42 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:35:42 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:35:42 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7fd3a6258a90> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7fd3a6258a90>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:35:42 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:35:42 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:35:42 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:35:42 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:35:42 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:35:42 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:35:42 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:35:42 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:35:42 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:42:51 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:42:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:42:52 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:42:52 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:42:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:42:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f864d1c49d0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f864d1c49d0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:42:52 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:42:52 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:42:52 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:42:52 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:42:52 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:42:52 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:42:52 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:42:52 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:42:53 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:47:14 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:47:15 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:47:16 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:47:16 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:47:16 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:47:16 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7fe8acd16820> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7fe8acd16820>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:47:16 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:47:16 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:47:16 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:47:16 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:47:16 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:47:16 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:47:16 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:47:16 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:47:17 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:48:49 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:48:50 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:48:50 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:48:50 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:48:50 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:48:50 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f6ccb0cd730> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f6ccb0cd730>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:48:50 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:48:50 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:48:50 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:48:50 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:48:51 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:48:51 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:48:51 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:48:51 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:48:51 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:50:30 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:50:31 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:50:31 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:50:31 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:50:32 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:50:32 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f936274e9d0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f936274e9d0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:50:32 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:50:32 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:50:32 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:50:32 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:50:32 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:50:32 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:50:32 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:50:32 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:50:32 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:54:57 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:54:58 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:54:58 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:54:58 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:54:58 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:54:58 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f49efc44820> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f49efc44820>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:54:58 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:54:59 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:54:59 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:54:59 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:54:59 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:54:59 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:54:59 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:54:59 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:54:59 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:55:46 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:55:47 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:55:48 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:55:48 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:55:48 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:55:48 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f16ecb329d0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f16ecb329d0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:55:48 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:55:48 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:55:48 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:55:48 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:55:48 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:55:48 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:55:48 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:55:48 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:55:49 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:59:09 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 16:59:10 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 16:59:11 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:59:11 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 16:59:11 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:59:11 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f58df78aaf0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f58df78aaf0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 16:59:11 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 16:59:11 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 16:59:11 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 16:59:11 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 16:59:11 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 16:59:11 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 16:59:11 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:59:11 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 16:59:11 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:03:18 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 17:03:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 17:03:20 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 17:03:20 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 17:03:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:03:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f5335f4e910> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f5335f4e910>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:03:20 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 17:03:20 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 17:03:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 17:03:20 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 17:03:20 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 17:03:20 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 17:03:20 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 17:03:20 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 17:03:21 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:05:18 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 17:05:19 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 17:05:20 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 17:05:20 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 17:05:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:05:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f363884c9d0> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f363884c9d0>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:05:20 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 17:05:20 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 17:05:20 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 17:05:20 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 17:05:20 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 17:05:20 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 17:05:20 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 17:05:20 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 17:05:21 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:07:30 optimizers:77] Could not import distributed_fused_adam optimizer from Apex
+[NeMo W 2025-04-14 17:07:31 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+      warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+    
+[NeMo W 2025-04-14 17:07:31 experimental:27] Module <class 'nemo.collections.nlp.data.language_modeling.megatron.megatron_batch_samplers.MegatronPretrainingRandomBatchSampler'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 17:07:31 experimental:27] Module <class 'nemo.collections.nlp.models.text_normalization_as_tagging.thutmose_tagger.ThutmoseTaggerModel'> is experimental, not ready for production and is not fully supported. Use at your own risk.
+[NeMo W 2025-04-14 17:07:31 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/plugins/training_type/ddp.py:20: LightningDeprecationWarning: The `pl.plugins.training_type.ddp.DDPPlugin` is deprecated in v1.6 and will be removed in v1.8. Use `pl.strategies.ddp.DDPStrategy` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:07:31 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/connectors/accelerator_connector.py:317: LightningDeprecationWarning: Passing <nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f2d0e382850> `strategy` to the `plugins` flag in Trainer has been deprecated in v1.5 and will be removed in v1.7. Use `Trainer(strategy=<nemo.collections.nlp.parts.nlp_overrides.NLPDDPPlugin object at 0x7f2d0e382850>)` instead.
+      rank_zero_deprecation(
+    
+[NeMo W 2025-04-14 17:07:31 exp_manager:570] No version folders would be created under the log folder as 'resume_if_exists' is enabled.
+[NeMo W 2025-04-14 17:07:31 exp_manager:422] There was no checkpoint folder at checkpoint_dir :/workspace/results/finetune_logs/megamolbart_finetune/checkpoints. Training from scratch.
+[NeMo W 2025-04-14 17:07:31 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/trainer.py:2319: LightningDeprecationWarning: `Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.
+      rank_zero_deprecation("`Trainer.weights_save_path` has been deprecated in v1.6 and will be removed in v1.8.")
+    
+[NeMo W 2025-04-14 17:07:31 exp_manager:899] The checkpoint callback was told to monitor a validation value and trainer's max_steps was set to 1000. Please ensure that max_steps will run for at least 1 epochs to ensure that checkpointing will not error out.
+[NeMo W 2025-04-14 17:07:32 modelPT:217] You tried to register an artifact under config key=tokenizer.vocab_file but an artifact for it has already been registered.
+[NeMo W 2025-04-14 17:07:32 megatron_lm_encoder_decoder_model:168] Could not find encoder or decoder in config. This is probably because of restoring an old checkpoint. Copying shared model configs to encoder and decoder configs.
+[NeMo W 2025-04-14 17:07:32 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 17:07:32 megatron_lm_encoder_decoder_model:140] bias_gelu_fusion is deprecated. Please use bias_activation_fusion instead.
+[NeMo W 2025-04-14 17:07:32 nemo_logging:349] /opt/conda/lib/python3.8/site-packages/pytorch_lightning/trainer/configuration_validator.py:317: LightningDeprecationWarning: The `LightningModule.on_pretrain_routine_start` hook was deprecated in v1.6 and will be removed in v1.8. Please use `LightningModule.on_fit_start` instead.
+      rank_zero_deprecation(
+    

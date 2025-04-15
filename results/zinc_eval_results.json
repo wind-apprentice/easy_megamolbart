@@ -1,0 +1,142 @@
+[
+  {
+    "input molecule": "CN(C)CCCNCCC(=O)NN",
+    "output molecule": "C(CCNCCC(=O)NN)N(C)C",
+    "result": false
+  },
+  {
+    "input molecule": "C[C@H](C(=O)NN)N1CCC(O)CC1",
+    "output molecule": "C1CN([C@@H](C(=O)NN)C)CCC1O",
+    "result": false
+  },
+  {
+    "input molecule": "CC(C)(CN)C(=O)NN",
+    "output molecule": "C(C(C)(C)C(=O)NN)N",
+    "result": false
+  },
+  {
+    "input molecule": "COc1cccc(B(O)O)c1N",
+    "output molecule": "c1cc(B(O)O)c(N)c(OC)c1",
+    "result": false
+  },
+  {
+    "input molecule": "NNC(=O)CC1CS(=O)(=O)C1",
+    "output molecule": "C1C(CC(=O)NN)CS1(=O)=O",
+    "result": false
+  },
+  {
+    "input molecule": "Cc1cn(C[C@@H](O)C#N)c(=O)[nH]c1=O",
+    "output molecule": "c1(=O)[nH]c(=O)n(C[C@@H](O)C#N)cc1C",
+    "result": false
+  },
+  {
+    "input molecule": "C[C@H]1CC[C@H]1NC(=O)C(=O)NN",
+    "output molecule": "C(C(=O)NN)(=O)N[C@@H]1CC[C@@H]1C",
+    "result": false
+  },
+  {
+    "input molecule": "O=CNNC(=O)[C@H]1CCNC(=O)C1",
+    "output molecule": "C1C(=O)NCC[C@@H]1C(=O)NNC=O",
+    "result": false
+  },
+  {
+    "input molecule": "N[C@H]1CNNC(=O)[C@H]1Cl",
+    "output molecule": "N1C(=O)[C@@H](Cl)[C@@H](N)CN1",
+    "result": false
+  },
+  {
+    "input molecule": "N#C[C@@H](O)[C@H](O)[C@@H](O)[C@@H](O)CO",
+    "output molecule": "O[C@@H]([C@@H](O)CO)[C@@H](O)[C@@H](C#N)O",
+    "result": false
+  },
+  {
+    "input molecule": "COCC(=O)NN[C@@H](C)C(N)=O",
+    "output molecule": "C(C(=O)NN[C@H](C(N)=O)C)OC",
+    "result": false
+  },
+  {
+    "input molecule": "NNC(=O)CCCCN1CC(O)C1",
+    "output molecule": "C(CCCC(=O)NN)N1CC(O)C1",
+    "result": false
+  },
+  {
+    "input molecule": "CN(N)C(=O)C[C]1C#CNN1",
+    "output molecule": "C1#C[C](CC(=O)N(N)C)NN1",
+    "result": false
+  },
+  {
+    "input molecule": "C#CCCOC(=O)NCB(O)O",
+    "output molecule": "C(CC#C)OC(=O)NCB(O)O",
+    "result": false
+  },
+  {
+    "input molecule": "CCON(C)CC(=O)NN",
+    "output molecule": "C(C(=O)NN)N(OCC)C",
+    "result": false
+  },
+  {
+    "input molecule": "Cn1ccc(C(=O)NNCCO)n1",
+    "output molecule": "C(CO)NNC(=O)c1ccn(C)n1",
+    "result": false
+  },
+  {
+    "input molecule": "N#C[C@@H](O)[C@H]1COCCN1",
+    "output molecule": "C1OCCN[C@H]1[C@H](O)C#N",
+    "result": false
+  },
+  {
+    "input molecule": "C[S@@](=O)C1CN(C(=O)NN)C1",
+    "output molecule": "C1C([S@](=O)C)CN1C(=O)NN",
+    "result": false
+  },
+  {
+    "input molecule": "C[C@H](O)CCNC(=O)C#CB(O)O",
+    "output molecule": "C(C(=O)NCC[C@@H](O)C)#CB(O)O",
+    "result": false
+  },
+  {
+    "input molecule": "C[C@H]1CN(C(=O)C#CB(O)O)C[C@@H]1F",
+    "output molecule": "C(C(=O)N1C[C@H](F)[C@@H](C)C1)#CB(O)O",
+    "result": false
+  },
+  {
+    "input molecule": "C#CC(=O)N1CC[C@@H](B(O)O)C1",
+    "output molecule": "C1N(C(C#C)=O)CC[C@H]1B(O)O",
+    "result": false
+  },
+  {
+    "input molecule": "C[C@@H](CNCCCO)C(=O)NN",
+    "output molecule": "C(CCO)NC[C@@H](C(=O)NN)C",
+    "result": false
+  },
+  {
+    "input molecule": "NNC(=O)OCCC[C@H](N)C(=O)O",
+    "output molecule": "C(CCOC(=O)NN)[C@@H](C(O)=O)N",
+    "result": false
+  },
+  {
+    "input molecule": "O=C1OC(=O)[C@H]2CNC[C@H]12",
+    "output molecule": "C1(=O)OC(=O)[C@H]2CNC[C@H]12",
+    "result": false
+  },
+  {
+    "input molecule": "CN(C)CC(=O)NNC(N)=S",
+    "output molecule": "C(NNC(=S)N)(=O)CN(C)C",
+    "result": false
+  },
+  {
+    "input molecule": "C[C@H](O)CN(C)C[C@H](C)C(=O)NN",
+    "output molecule": "C(N(C)C[C@H](C)C(NN)=O)[C@@H](O)C",
+    "result": false
+  },
+  {
+    "input molecule": "CC(=O)NNS(=O)(=O)NC(C)=O",
+    "output molecule": "C(=O)(NS(=O)(=O)NNC(=O)C)C",
+    "result": false
+  },
+  {
+    "input molecule": "NNC(=O)CN1CCOC[C@@H](O)C1",
+    "output molecule": "C1OCCN(CC(=O)NN)C[C@@H]1O",
+    "result": false
+  }
+]

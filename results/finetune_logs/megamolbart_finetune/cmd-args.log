@@ -1,0 +1,1 @@
+finetune.py --config-path=/workspace/scripts/conf --config-name=finetune
